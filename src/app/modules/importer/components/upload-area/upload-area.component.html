@@ -1,0 +1,8 @@
+<div class="upload-area flex-column align-center t-a-center j-center t-a-center p-relative p-t-15" (click)="image_upload.click()"
+(drop)="fileDrop($event)" (dragover)="fileDrag($event)">
+    <img src="assets/icons/upload-1.png" width="62px" height="55px" alt="">
+    <img src="assets/icons/plus-alt.png" width="35px" height="35px" class="plus-icon" alt="">
+    <div class="c-light-gr xs-text f-jakarta-medium  f-w-500">Upload Files</div>
+    <input #image_upload type="file" style="display:none" (change)="onDrop($event.target.files)"
+    multiple />
+</div>

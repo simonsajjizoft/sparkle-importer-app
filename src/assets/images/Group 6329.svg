@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264.299" height="177.691" viewBox="0 0 264.299 177.691">
+  <g id="Group_6329" data-name="Group 6329" transform="translate(-6708 -7301)">
+    <g id="Component_63_27" data-name="Component 63 – 27" transform="translate(6712 7305)">
+      <path id="Union_4" data-name="Union 4" d="M112.874,169.691H16.126A16.022,16.022,0,0,1,0,153.784V37.126C0,28.337,7.222,22.05,16.126,22.05L43,21.218a21.5,21.5,0,0,1,43.005,0h26.873A16.016,16.016,0,0,1,129,37.126V84.443l30.129-49.62a16.053,16.053,0,0,1,27.272,0L253.956,146.09a15.523,15.523,0,0,1,.05,15.66,15.991,15.991,0,0,1-13.684,7.942ZM56.435,21.218A8.066,8.066,0,1,0,64.5,13.26,7.991,7.991,0,0,0,56.435,21.218Z" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+      <g id="Group_6211" data-name="Group 6211" transform="translate(161.979 65.093)">
+        <g id="Rectangle_3558" data-name="Rectangle 3558" fill="none" stroke="#517494" stroke-width="8">
+          <rect width="20.531" height="57.487" rx="3" stroke="none"/>
+          <rect x="4" y="4" width="12.531" height="49.487" rx="1" fill="none"/>
+        </g>
+        <g id="Ellipse_618" data-name="Ellipse 618" transform="translate(0 61.594)" fill="none" stroke="#517494" stroke-width="8">
+          <circle cx="10.266" cy="10.266" r="10.266" stroke="none"/>
+          <circle cx="10.266" cy="10.266" r="6.266" fill="none"/>
+        </g>
+      </g>
+      <line id="Line_587" data-name="Line 587" x2="78.019" transform="translate(34.632 64.549)" fill="none" stroke="#517494" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_588" data-name="Line 588" x2="78.019" transform="translate(34.632 99.531)" fill="none" stroke="#517494" stroke-linecap="round" stroke-width="8"/>
+      <line id="Line_589" data-name="Line 589" x2="78.019" transform="translate(34.632 134.514)" fill="none" stroke="#517494" stroke-linecap="round" stroke-width="8"/>
+    </g>
+  </g>
+</svg>

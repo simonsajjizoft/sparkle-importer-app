@@ -1,0 +1,52 @@
+<div class="container-fluid header-parent">
+  <div *ngIf="showLoader" class="loader-parent">
+    <img src="assets/gif/loader.gif">
+  </div>
+  <div class="row header-section">
+    <div class=" logo-container p-t-0 p-b-0 p-l-10 p-r-0">
+      <div class="logo-text" matRipple [matRippleCentered]="true">
+        <div class="c-pointer outerlogo f-w-500" >
+          <img src="assets/icons/SparkleLogo.png" width="140px" height="45px">
+        </div>
+      </div>
+    </div>
+    <div class=" p-r-20">
+    </div>
+    <div class="d-flex t_outer">
+      <div class="t_search ics p-r-20">
+        <div class="user-name-length"  title="{{currentUser?.firstName}}">
+          <span class="f-w-400  user-name">Mark</span>
+        </div>
+        <div class="no-close profile user-profile-ctn m-text m-l-5 c-pointer" ><span  class="no-close m-t-2  s-text">MJ</span></div>
+        <div *ngIf="dropDown" class="drop-down p-t-5 p-b-5">
+          <div *ngIf="currentRole === 'receiver' && userPermission['receiver'] === 'full'"
+            (click)="navClick('/receiving/create-srn')" class="log-out d-flex align-center p-l-15 p-r-15" matRipple
+            [matRippleCentered]="true">
+            <i class="fa fa-plus-square-o float-left" aria-hidden="true"></i>
+            <span>{{'createSRN' | translate}}</span>
+          </div>
+          <div *ngIf="userStations?.length > 1" class="no-close log-out d-flex align-center p-l-15 p-r-15"
+            (click)="showRoles = !showRoles" matRipple [matRippleCentered]="true">
+            <i class="no-close fa fa-user float-left "></i>
+            <span class="no-close">Switch Station</span>
+            <i class="no-close fa xs-text drop-down-arrow" [ngClass]="showRoles ? 'fa-chevron-up' : 'fa-chevron-down'"
+              aria-hidden="true"></i>
+          </div>
+          <ng-container *ngIf="showRoles">
+            <ng-container *ngFor="let station of userStations">
+              <div *ngIf="station != currentRole && station != 'DC2'" class="log-out d-flex align-center p-l-15 p-r-15"
+                (click)="roleChange(station)" matRipple [matRippleCentered]="true">
+                <span class="m-l-10 user-role">{{station == 'vendor' ? 'Graphics' : station == 'photographer' ? 'Photography':station == 'receiver' ? 'Receiving'  : station == 'register' ? 'Registration' : station}}</span>
+              </div>
+            </ng-container>
+          </ng-container>
+          <div (click)="logoutClick()" class="log-out d-flex align-center p-l-15 p-r-15" matRipple
+            [matRippleCentered]="true">
+            <i class="fa fa-power-off float-left "></i>
+            <span>{{'logout' | translate}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

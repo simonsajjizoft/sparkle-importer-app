@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106.327" height="61.064" viewBox="0 0 106.327 61.064">
+  <g id="Group_2820" data-name="Group 2820" transform="translate(-97.699 -772.75)">
+    <g id="Group_2818" data-name="Group 2818">
+      <g id="Shoping_Icon" data-name="Shoping Icon" transform="translate(98.699 798.051)">
+        <path id="Shoping_Icon-2" data-name="Shoping Icon" d="M50.026,367H43.217A2.981,2.981,0,0,0,40,370.224v1.612a2.981,2.981,0,0,0,3.217,3.224h.267l9.792,23.681a.806.806,0,0,0,.743.5H82.282a.806.806,0,0,0,.743-.5l9.792-23.681h.267a2.981,2.981,0,0,0,3.217-3.224v-1.612A2.981,2.981,0,0,0,93.084,367H86.274m-1.934,0H51.961m16.994,20.15h7.682l-2.08,10.477h-5.6Zm-1.609,10.477h-5.6l-2.08-10.477h7.682Zm1.609-12.089V375.059H79.038l-2.082,10.478Zm-1.609,0h-8l-2.082-10.478H67.346ZM55.623,375.059,57.7,385.538H49.558l-4.333-10.478Zm-5.4,12.09h7.8L60.1,397.626H54.556Zm31.52,10.477H76.2l2.081-10.477h7.8Zm5-12.089H78.6l2.081-10.478h10.4Zm7.95-13.7a1.4,1.4,0,0,1-1.609,1.612H43.217a1.4,1.4,0,0,1-1.609-1.612v-1.612a1.4,1.4,0,0,1,1.609-1.612H93.084a1.4,1.4,0,0,1,1.609,1.612Z" transform="translate(-40 -367)" fill="none" stroke="#517494" stroke-width="2"/>
+      </g>
+      <path id="Icon_awesome-reply" data-name="Icon awesome-reply" d="M32.837,10.528,21.363,2.557c-1-.7-2.587-.131-2.587.953v4.2C8.3,7.8,0,9.493,0,17.478c0,3.223,2.58,6.415,5.433,8.084.89.521,2.159-.133,1.83-.977-2.956-7.606,1.4-9.625,11.512-9.742v4.611c0,1.086,1.584,1.65,2.587.953l11.474-7.972A1.109,1.109,0,0,0,32.837,10.528Z" transform="translate(147.436 771.961) rotate(21)" fill="none" stroke="#1d364b" stroke-width="2"/>
+      <path id="Icon_awesome-folder-open" data-name="Icon awesome-folder-open" d="M44.742,22.774,39.084,32.72a4.978,4.978,0,0,1-4.319,2.544H3.518A1.923,1.923,0,0,1,1.9,32.372l5.658-9.947a4.978,4.978,0,0,1,4.319-2.544H43.122a1.923,1.923,0,0,1,1.62,2.892ZM11.875,17.318H37.5V13.473a3.8,3.8,0,0,0-3.75-3.845H21.25l-5-5.127H3.75A3.8,3.8,0,0,0,0,8.345V30.621l5.4-9.487A7.492,7.492,0,0,1,11.875,17.318Z" transform="translate(158 797.551)" fill="none" stroke="#517494" stroke-width="2" opacity="0.79"/>
+    </g>
+    <g id="Icon_feather-loader" data-name="Icon feather-loader" transform="translate(174 816.729)">
+      <path id="Path_481" data-name="Path 481" d="M18,3V5.254" transform="translate(-9.364)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_482" data-name="Path 482" d="M18,27v2.254" transform="translate(-9.364 -14.983)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_483" data-name="Path 483" d="M7.395,7.395,8.99,8.99" transform="translate(-2.744 -2.744)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_484" data-name="Path 484" d="M24.36,24.36l1.595,1.595" transform="translate(-13.335 -13.335)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_485" data-name="Path 485" d="M3,18H5.254" transform="translate(0 -9.364)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_486" data-name="Path 486" d="M27,18h2.254" transform="translate(-14.983 -9.364)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_487" data-name="Path 487" d="M7.395,25.955,8.99,24.36" transform="translate(-2.744 -13.335)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_488" data-name="Path 488" d="M24.36,8.99l1.595-1.595" transform="translate(-13.335 -2.744)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

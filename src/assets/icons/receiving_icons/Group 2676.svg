@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.035" height="30.073" viewBox="0 0 34.035 30.073">
+  <g id="Group_2676" data-name="Group 2676" transform="translate(-927.119 -106.883)">
+    <path id="Icon_open-document" data-name="Icon open-document" d="M0,0V24.973H21.851V12.486H9.365V0ZM12.486,0V9.365h9.365ZM3.122,6.243H6.243V9.365H3.122Zm0,6.243H6.243v3.122H3.122Zm0,6.243H15.608v3.122H3.122Z" transform="translate(928.119 109.297)" fill="none" stroke="#517494" stroke-width="2"/>
+    <path id="Icon_awesome-pen-fancy" data-name="Icon awesome-pen-fancy" d="M2.256,8.06a.912.912,0,0,0-.577.577L0,13.673l.134.134L2.78,11.161a.877.877,0,0,1-.045-.222.912.912,0,1,1,.912.912.877.877,0,0,1-.222-.045L.778,14.452l.133.133,5.037-1.679a.911.911,0,0,0,.577-.577l.942-2.395L4.65,7.118ZM10.519.807,5.3,6.489,8.09,9.277l5.683-5.216C16.192,1.922,12.64-1.594,10.519.807Z" transform="translate(943.046 122.059) rotate(-13)" fill="none" stroke="#1d364b" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <filter id="Ellipse_291" x="0" y="0" width="46" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2322" data-name="Group 2322" transform="translate(-350 -852)" opacity="0.44">
+    <g id="Group_2312" data-name="Group 2312" transform="translate(-37 -14)">
+      <g transform="matrix(1, 0, 0, 1, 387, 866)" filter="url(#Ellipse_291)">
+        <circle id="Ellipse_291-2" data-name="Ellipse 291" cx="14" cy="14" r="14" transform="translate(9 6)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Icon_feather-trash-2" data-name="Icon feather-trash-2" transform="translate(362.295 862.105)">
+      <path id="Path_345" data-name="Path 345" d="M4.5,9H16.91" transform="translate(0 -3.242)" fill="none" stroke="#0f35f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_346" data-name="Path 346" d="M17.152,5.758V15.41a1.379,1.379,0,0,1-1.379,1.379H8.879A1.379,1.379,0,0,1,7.5,15.41V5.758m2.068,0V4.379A1.379,1.379,0,0,1,10.947,3h2.758a1.379,1.379,0,0,1,1.379,1.379V5.758" transform="translate(-1.621)" fill="none" stroke="#0f35f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_347" data-name="Path 347" d="M15,16.5v4.137" transform="translate(-5.674 -7.295)" fill="none" stroke="#0f35f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_348" data-name="Path 348" d="M21,16.5v4.137" transform="translate(-8.916 -7.295)" fill="none" stroke="#0f35f1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

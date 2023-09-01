@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <filter id="Ellipse_288" x="0" y="0" width="31" height="31" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2298" data-name="Group 2298" transform="translate(-854 -1099)">
+    <g id="Group_2269" data-name="Group 2269" transform="translate(0 -3)">
+      <g transform="matrix(1, 0, 0, 1, 854, 1102)" filter="url(#Ellipse_288)">
+        <circle id="Ellipse_288-2" data-name="Ellipse 288" cx="12.5" cy="12.5" r="12.5" transform="translate(3 2)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Icon_feather-edit-3" data-name="Icon feather-edit-3" transform="translate(859.257 1103.72)">
+      <path id="Path_397" data-name="Path 397" d="M18,30h5.743" transform="translate(-7.757 -14.756)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_398" data-name="Path 398" d="M13.115,4.715a1.354,1.354,0,0,1,1.914,1.914L7.053,14.606,4.5,15.244l.638-2.553Z" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

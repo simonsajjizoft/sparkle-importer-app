@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.341" height="58.611" viewBox="0 0 109.341 58.611">
+  <g id="Group_2827" data-name="Group 2827" transform="translate(-100.773 -1131.752)">
+    <g id="Group_2826" data-name="Group 2826" transform="translate(161.528 1146.278)">
+      <path id="Icon_awesome-folder-open" data-name="Icon awesome-folder-open" d="M47.286,23.813l-5.98,10.512a5.261,5.261,0,0,1-4.564,2.688H3.718a2.033,2.033,0,0,1-1.712-3.056l5.98-10.512a5.261,5.261,0,0,1,4.564-2.688H45.574a2.033,2.033,0,0,1,1.712,3.056ZM12.55,18.047H39.632V13.983a4.015,4.015,0,0,0-3.963-4.064H22.458L17.174,4.5H3.963A4.015,4.015,0,0,0,0,8.564V32.106L5.7,22.08A7.918,7.918,0,0,1,12.55,18.047Z" transform="translate(0 -4.5)" fill="none" stroke="#517494" stroke-width="2" opacity="0.79"/>
+      <g id="Icon_feather-loader" data-name="Icon feather-loader" transform="translate(20.08 18.683)">
+        <path id="Path_481" data-name="Path 481" d="M18,3V5.382" transform="translate(-12.044 -3)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_482" data-name="Path 482" d="M18,27v2.382" transform="translate(-12.044 -17.47)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_483" data-name="Path 483" d="M7.395,7.395,9.081,9.081" transform="translate(-5.65 -5.65)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_484" data-name="Path 484" d="M24.36,24.36l1.686,1.686" transform="translate(-15.878 -15.878)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_485" data-name="Path 485" d="M3,18H5.382" transform="translate(-3 -12.044)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_486" data-name="Path 486" d="M27,18h2.382" transform="translate(-17.47 -12.044)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_487" data-name="Path 487" d="M7.395,26.046,9.081,24.36" transform="translate(-5.65 -15.878)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_488" data-name="Path 488" d="M24.36,9.081l1.686-1.686" transform="translate(-15.878 -5.65)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Group_2825" data-name="Group 2825" transform="translate(100.773 1139.104)">
+      <path id="Icon_simple-codesandbox" data-name="Icon simple-codesandbox" d="M3,8.41,18.155,0,33.31,8.41l.13,16.75-15.285,8.48L3,25.231Zm3.027,3.478v6.668l4.849,2.607v4.928l5.758,3.218V17.715Zm24.264,0L19.684,17.715V29.31l5.758-3.218V21.166l4.849-2.609V11.886ZM7.543,9.253l10.586,5.809L28.739,9.2l-5.611-3.08L18.185,8.849,13.213,6.09,7.541,9.251Z" transform="translate(-3 14.964)" fill="#1d364b"/>
+      <path id="Icon_simple-codesandbox-2" data-name="Icon simple-codesandbox" d="M3,8.41,18.155,0,33.31,8.41l.13,16.75-15.285,8.48L3,25.231Zm3.027,3.478v6.668l4.849,2.607v4.928l5.758,3.218V17.715Zm24.264,0L19.684,17.715V29.31l5.758-3.218V21.166l4.849-2.609V11.886ZM7.543,9.253l10.586,5.809L28.739,9.2l-5.611-3.08L18.185,8.849,13.213,6.09,7.541,9.251Z" transform="translate(24.141 17.619)" fill="#1d364b"/>
+      <path id="Icon_simple-codesandbox-3" data-name="Icon simple-codesandbox" d="M3,6.534,14.774,0,26.548,6.534l.1,13.014L14.774,26.136,3,19.6Zm2.351,2.7v5.18l3.767,2.026v3.829l4.473,2.5V13.763Zm18.851,0-8.24,4.527v9.008l4.473-2.5V16.444L24.2,14.417V9.235ZM6.529,7.189,14.754,11.7,23,7.149,18.638,4.757,14.8,6.875,10.935,4.732,6.528,7.187Z" transform="translate(15.712)" fill="#1d364b"/>
+    </g>
+    <path id="Icon_awesome-reply" data-name="Icon awesome-reply" d="M28.55,7.2,18.574.267c-.873-.607-2.25-.114-2.25.828V4.746C7.22,4.83,0,6.3,0,13.24c0,2.8,2.244,5.578,4.723,7.029.774.453,1.877-.116,1.591-.85-2.57-6.613,1.219-8.369,10.009-8.47v4.009c0,.944,1.377,1.434,2.25.828L28.55,8.854A.964.964,0,0,0,28.55,7.2Z" transform="translate(148.468 1133.062) rotate(21)" fill="#fff" stroke="#1d364b" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Component_9_40" data-name="Component 9 – 40" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_1773" data-name="Group 1773" transform="translate(0 0)">
+    <g id="Group_1770" data-name="Group 1770" transform="translate(0 0)">
+      <g id="Group_1686" data-name="Group 1686" transform="translate(0)">
+        <circle id="Ellipse_209" data-name="Ellipse 209" cx="11" cy="11" r="11" fill="#0134ff"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-box-open" data-name="Icon awesome-box-open" d="M9.164,6.623a1.07,1.07,0,0,1-.891-.457L6.888,4.084,5.506,6.166a1.073,1.073,0,0,1-.894.459,1.085,1.085,0,0,1-.286-.037l-2.95-.766V9.3A.638.638,0,0,0,1.9,9.9l4.655,1.057a1.539,1.539,0,0,0,.667,0L11.879,9.9A.641.641,0,0,0,12.4,9.3V5.822l-2.95.764A1.085,1.085,0,0,1,9.164,6.623Zm4.578-2.192L12.633,2.424a.361.361,0,0,0-.36-.174l-5.385.623L8.862,5.844a.371.371,0,0,0,.4.143l4.261-1.1a.314.314,0,0,0,.22-.451ZM1.143,2.424.035,4.432a.311.311,0,0,0,.217.449l4.261,1.1a.371.371,0,0,0,.4-.143L6.888,2.873,1.5,2.25A.361.361,0,0,0,1.143,2.424Z" transform="translate(4.574 5.165)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

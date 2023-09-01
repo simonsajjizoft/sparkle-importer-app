@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.674" height="24.5" viewBox="0 0 26.674 24.5">
+  <g id="Group_179" data-name="Group 179" transform="translate(-128.948 -156.464)">
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(133.934 167.203)" fill="#fff" stroke="#1b7692" stroke-width="1.5">
+      <circle cx="2.566" cy="2.566" r="2.566" stroke="none"/>
+      <circle cx="2.566" cy="2.566" r="1.816" fill="none"/>
+    </g>
+    <g id="Icon_feather-file" data-name="Icon feather-file" transform="translate(136.472 157.214)">
+      <path id="Path_69" data-name="Path 69" d="M16.35,3H8.3A2.3,2.3,0,0,0,6,5.3V23.7A2.3,2.3,0,0,0,8.3,26H22.1a2.3,2.3,0,0,0,2.3-2.3V11.05Z" transform="translate(-6 -3)" fill="none" stroke="#1b7692" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_70" data-name="Path 70" d="M19.5,3v8.05h8.05" transform="translate(-9.15 -3)" fill="none" stroke="#1b7692" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <rect id="Rectangle_99" data-name="Rectangle 99" width="5.132" height="15.396" transform="translate(133.934 162.071)" fill="#fff"/>
+    <g id="Icon_feather-settings" data-name="Icon feather-settings" transform="translate(129.698 163.043)">
+      <path id="Path_68" data-name="Path 68" d="M12.831,10.121a1.016,1.016,0,0,0,.2,1.121l.037.037a1.232,1.232,0,1,1-1.743,1.743l-.037-.037a1.024,1.024,0,0,0-1.737.727v.1a1.232,1.232,0,1,1-2.463,0v-.055a1.066,1.066,0,0,0-1.786-.727l-.037.037a1.232,1.232,0,1,1-1.743-1.743l.037-.037a1.024,1.024,0,0,0-.727-1.737h-.1a1.232,1.232,0,0,1,0-2.463h.055a1.066,1.066,0,0,0,.727-1.786l-.037-.037A1.232,1.232,0,1,1,5.219,3.526l.037.037a1.016,1.016,0,0,0,1.121.2h.049a1.016,1.016,0,0,0,.616-.93v-.1a1.232,1.232,0,1,1,2.463,0v.055a1.024,1.024,0,0,0,1.737.727l.037-.037a1.232,1.232,0,1,1,1.743,1.743l-.037.037a1.016,1.016,0,0,0-.2,1.121v.049a1.016,1.016,0,0,0,.93.616h.1a1.232,1.232,0,0,1,0,2.463H13.76a1.016,1.016,0,0,0-.93.616Z" transform="translate(-1.5 -1.5)" fill="none" stroke="#1b7692" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(133.934 167.203)" fill="#fff" stroke="#1b7692" stroke-width="1.5">
+      <circle cx="2.566" cy="2.566" r="2.566" stroke="none"/>
+      <circle cx="2.566" cy="2.566" r="1.816" fill="none"/>
+    </g>
+  </g>
+</svg>

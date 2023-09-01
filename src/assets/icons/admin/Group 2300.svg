@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <filter id="Ellipse_287" x="0" y="0" width="30" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_2300" data-name="Group 2300" transform="translate(-107 -835)">
+    <g transform="matrix(1, 0, 0, 1, 107, 835)" filter="url(#Ellipse_287)">
+      <circle id="Ellipse_287-2" data-name="Ellipse 287" cx="12" cy="12" r="12" transform="translate(3 2)" fill="#fff"/>
+    </g>
+    <g id="Icon_feather-camera" data-name="Icon feather-camera" transform="translate(115.969 843.573)">
+      <path id="Path_416" data-name="Path 416" d="M13.31,13.089a1.074,1.074,0,0,1-1.074,1.074H2.574A1.074,1.074,0,0,1,1.5,13.089V7.184A1.074,1.074,0,0,1,2.574,6.11H4.721L5.795,4.5H9.016l1.074,1.61h2.147A1.074,1.074,0,0,1,13.31,7.184Z" transform="translate(-1.5 -4.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_417" data-name="Path 417" d="M16.295,15.647A2.147,2.147,0,1,1,14.147,13.5,2.147,2.147,0,0,1,16.295,15.647Z" transform="translate(-8.242 -10.279)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

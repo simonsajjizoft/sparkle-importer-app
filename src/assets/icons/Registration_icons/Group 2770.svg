@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107.441" height="81.581" viewBox="0 0 107.441 81.581">
+  <g id="Group_2770" data-name="Group 2770" transform="translate(-102 -602.379)">
+    <g id="Product" transform="translate(131.635 643.409)">
+      <g id="Group_1685" data-name="Group 1685">
+        <path id="Icon_simple-codesandbox" data-name="Icon simple-codesandbox" d="M3,6.89,15,0l12,6.89.1,13.722L15,27.558,3,20.669ZM5.4,9.738V15.2l3.841,2.136v4.037L13.8,24.01v-9.5Zm19.221,0-8.4,4.773v9.5l4.561-2.636V17.339L24.618,15.2V9.737ZM6.6,7.58l8.386,4.758,8.405-4.8L18.945,5.016,15.029,7.249l-3.939-2.26L6.6,7.578Z" transform="translate(-3)" fill="#1d364b"/>
+      </g>
+    </g>
+    <g id="Group_2769" data-name="Group 2769">
+      <path id="Icon_awesome-folder" data-name="Icon awesome-folder" d="M93.744,17.43H54.953L42.023,4.5H9.7A9.7,9.7,0,0,0,0,14.2V72.384a9.7,9.7,0,0,0,9.7,9.7H93.744a9.7,9.7,0,0,0,9.7-9.7V27.128A9.7,9.7,0,0,0,93.744,17.43Z" transform="translate(104 599.879)" fill="none" stroke="#517494" stroke-width="4"/>
+      <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M22.851,11.707A11.144,11.144,0,1,1,11.707.563,11.144,11.144,0,0,1,22.851,11.707Zm-12.433,5.9,8.268-8.268a.719.719,0,0,0,0-1.017L17.669,7.306a.719.719,0,0,0-1.017,0L9.909,14.049,6.761,10.9a.719.719,0,0,0-1.017,0L4.728,11.918a.719.719,0,0,0,0,1.017L9.4,17.608A.719.719,0,0,0,10.418,17.608Z" transform="translate(180.543 619.963)" fill="#0ec852"/>
+      <g id="Product-2" data-name="Product" transform="translate(137.635 622.131)">
+        <g id="Group_1685-2" data-name="Group 1685" transform="translate(14 17)">
+          <path id="Icon_simple-codesandbox-2" data-name="Icon simple-codesandbox" d="M3,6.89,15,0l12,6.89.1,13.722L15,27.558,3,20.669ZM5.4,9.738V15.2l3.841,2.136v4.037L13.8,24.01v-9.5Zm19.221,0-8.4,4.773v9.5l4.561-2.636V17.339L24.618,15.2V9.737ZM6.6,7.58l8.386,4.758,8.405-4.8L18.945,5.016,15.029,7.249l-3.939-2.26L6.6,7.578Z" transform="translate(-3)" fill="#1d364b"/>
+          <path id="Icon_simple-codesandbox-3" data-name="Icon simple-codesandbox" d="M3,6.89,15,0l12,6.89.1,13.722L15,27.558,3,20.669ZM5.4,9.738V15.2l3.841,2.136v4.037L13.8,24.01v-9.5Zm19.221,0-8.4,4.773v9.5l4.561-2.636V17.339L24.618,15.2V9.737ZM6.6,7.58l8.386,4.758,8.405-4.8L18.945,5.016,15.029,7.249l-3.939-2.26L6.6,7.578Z" transform="translate(-17 -17)" fill="#1d364b"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

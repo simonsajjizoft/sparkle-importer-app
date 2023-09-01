@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="63" viewBox="0 0 64 63">
+  <g id="Group_2283" data-name="Group 2283" transform="translate(-455 -232)">
+    <g id="Rectangle_687" data-name="Rectangle 687" transform="translate(455 232)" fill="none" stroke="#517494" stroke-width="1">
+      <rect width="64" height="63" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="63" height="62" rx="13.5" fill="none"/>
+    </g>
+    <g id="Group_2276" data-name="Group 2276">
+      <text id="XS" transform="translate(461 277)" fill="#517494" font-size="40" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">XS</tspan></text>
+      <g id="Ellipse_285" data-name="Ellipse 285" transform="translate(466 255)" fill="none" stroke="#fff" stroke-width="5">
+        <circle cx="9" cy="9" r="9" stroke="none"/>
+        <circle cx="9" cy="9" r="6.5" fill="none"/>
+      </g>
+      <g id="Ellipse_286" data-name="Ellipse 286" transform="translate(463 252)" fill="none" stroke="#8da2b5" stroke-width="5">
+        <circle cx="12" cy="12" r="12" stroke="none"/>
+        <circle cx="12" cy="12" r="9.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

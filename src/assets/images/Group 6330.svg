@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37" height="48.535" viewBox="0 0 37 48.535">
+  <defs>
+    <filter id="Ellipse_622" x="0" y="11.535" width="37" height="37" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6330" data-name="Group 6330" transform="translate(-1522 -1634.465)">
+    <path id="Icon_metro-attachment" data-name="Icon metro-attachment" d="M22.629,11.781,20.673,9.825l-9.785,9.783a4.151,4.151,0,0,0,5.871,5.87L28.5,13.737a6.918,6.918,0,0,0-9.784-9.783L6.388,16.282l-.026.025A9.649,9.649,0,0,0,20.008,29.951l.025-.026h0l8.415-8.414-1.958-1.956-8.415,8.413-.025.025a6.881,6.881,0,0,1-9.733-9.73l.027-.025v0L20.673,5.911a4.151,4.151,0,0,1,5.871,5.87L14.8,23.521a1.383,1.383,0,0,1-1.957-1.956l9.785-9.784Z" transform="translate(1519.765 1632.537)" fill="#517494"/>
+    <g id="Group_6329" data-name="Group 6329">
+      <g transform="matrix(1, 0, 0, 1, 1522, 1634.47)" filter="url(#Ellipse_622)">
+        <circle id="Ellipse_622-2" data-name="Ellipse 622" cx="9.5" cy="9.5" r="9.5" transform="translate(9 17.53)" fill="#fff"/>
+      </g>
+      <path id="Icon_awesome-plus" data-name="Icon awesome-plus" d="M10.681,6.769h-3.7v-3.7a.822.822,0,0,0-.822-.822H5.341a.822.822,0,0,0-.822.822v3.7H.822A.822.822,0,0,0,0,7.591v.822a.822.822,0,0,0,.822.822h3.7v3.7a.822.822,0,0,0,.822.822h.822a.822.822,0,0,0,.822-.822v-3.7h3.7a.822.822,0,0,0,.822-.822V7.591A.822.822,0,0,0,10.681,6.769Z" transform="translate(1534.789 1653.499)" fill="#1d364b"/>
+    </g>
+  </g>
+</svg>

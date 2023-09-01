@@ -1,0 +1,89 @@
+<ng-container>
+    <div class="p-sticky">
+        <div class="task-area p-15 m-t-5  m-b-10  ">
+            <!-- <div class="d-flex j-space">
+                <div class="f-w-500 xl-text d-flex align-center f-w-600 f-poppins"> <img
+                        src="assets/icons/task-details.svg" width="21px" height="19px" alt=""><span
+                        class="m-l-4 m-t-2">Task Details</span></div>
+            </div> -->
+            <mat-tab-group class="remove-border-bottom">
+                <mat-tab label="Task Details">
+                    <ng-template mat-tab-label>
+                        <div class="f-w-500 xl-text d-flex align-center f-w-600 f-poppins"> <img
+                                src="assets/icons/task-details.svg" width="20px" height="18px" alt=""><span
+                                class="m-l-4 m-t-2">Task Details</span></div>
+                    </ng-template> 
+                </mat-tab>
+                <mat-tab label="Logs">
+                    <ng-template mat-tab-label>
+                        <div class="f-w-500 xl-text d-flex align-center f-w-600 f-poppins"> <i class="fa xxl-text fa-history c-primary"></i><span
+                                class="m-l-4 m-t-2">Logs</span></div>
+                    </ng-template> 
+                </mat-tab>
+            </mat-tab-group>
+            <!-- <p class="d-flex j-center t-a-center f-jakarta-semi-bold f-s-13 c-grey p-t-20  p-b-0 m-b-0 d-flex align-center"><img src="assets/icons/files.svg" width="16px" height="15px" alt=""> <span class="m-l-4">Uploading Files...</span></p> -->
+            <div class="d-flex align-center j-center gap-10 p-b-20 p-t-30">
+                <div class="d-flex align-center">
+                    <img src="assets/icons/double-tick -green.png" width="32x" height="32px" alt="">
+                    <span class="f-poppins-medium  xxl-text m-l-5 m-t-2">200</span>
+                </div>
+                <div class="d-flex align-center ">
+                    <img src="assets/icons/errors.png" width="21px" height="20px" alt="">
+                    <span class="f-poppins-medium xxl-text m-l-5 m-t-2">05</span>
+                </div>
+            </div>
+            <div class="row m-r-0 m-b-20">
+                <div class="col-md-6 m-t-12 m-text c-grey">
+                    <span>Upload Completed</span>
+                </div>
+                <div class="col-md-6 m-t-12 p-r-0 m-text d-flex gap-5 j-end align-center ">
+                    <div class="p-1 p-r-0 m-b-4 m-text f-w-600 c-primary">200</div>
+                </div>
+                <div class="col-md-6 m-t-12 m-text c-grey">
+                    <span>Error Files</span>
+                </div>
+                <div class="col-md-6 m-t-12 p-r-0 m-text d-flex gap-5 j-end align-center ">
+                    <div class="p-1  p-r-0 m-b-4 m-text f-w-600 c-primary">05</div>
+                </div>
+                <div class="col-md-6 m-t-12 m-text c-grey">
+                    <span>Uploading</span>
+                </div>
+                <div class="col-md-6 m-t-12 p-r-0 m-text d-flex gap-5 j-end align-center ">
+                    <div class="p-1 p-r-0 m-b-4 m-text f-w-600 c-primary">250</div>
+                </div>
+                <div class="col-md-6 m-t-12 m-text c-grey">
+                    <span>Created Date</span>
+                </div>
+                <div class="col-md-6 m-t-12  p-r-0 m-text d-flex gap-5 j-end align-center ">
+                    <div class="p-1 p-r-0 m-b-4 m-text f-w-500 c-grey">20th Aug 2023</div>
+                </div>
+                <div class="col-md-6 m-t-12 m-text c-grey">
+                    <span>Locations</span>
+                </div>
+                <div class="col-md-6 m-t-12  p-r-0 m-text d-flex gap-5 j-end align-center ">
+                    <div class="p-1 p-r-0 m-b-4 m-text f-w-600 c-grey">20</div>
+                </div>
+                <div class="col-md-6 m-t-12 m-text c-grey">
+                    <span>Machines</span>
+                </div>
+                <div class="col-md-6 m-t-12 p-r-0 m-text d-flex gap-5 j-end align-center ">
+                    <div class="p-1 p-r-0 m-b-4 m-text f-w-600 c-grey">80</div>
+                </div>
+                <div class="col-md-6 m-t-12 m-text f-w-500">
+                    <span>Total Collection</span>
+                </div>
+                <div class="col-md-6 m-t-12 p-r-0 m-text d-flex gap-5 j-end align-center f-w-500 ">
+                    <div class="p-1 p-r-0 m-b-4 m-text f-w-600 c-primary">$ 3154</div>
+                </div>
+
+            </div>
+            <div class="flex-column j-center align-center m-t-30 m-b-10 p-t-20">
+                <div class="d-flex align-center  f-jakarta-semi-bold s-text  m-r-5  m-b-5"><img
+                        src="assets/icons/delete.png" width="15px" height="15px" alt=""><span class="m-l-4 ">Delete
+                        Task</span></div>
+                <div class="f-jakarta-bold f-s-12 c-grey  m-t-10 btn" matRipple matRippleCentered="true">Update and
+                    Submit</div>
+            </div>
+        </div>
+    </div>
+</ng-container>

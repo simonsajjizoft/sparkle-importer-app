@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57">
+  <g id="Group_2299" data-name="Group 2299" transform="translate(-69 -796)">
+    <g id="Rectangle_700" data-name="Rectangle 700" transform="translate(69 796)" fill="none" stroke="#517494" stroke-width="1">
+      <rect width="57" height="57" rx="28.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="56" height="56" rx="28" fill="none"/>
+    </g>
+    <text id="ABC" transform="translate(75 833)" fill="#230606" font-size="19" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">A</tspan><tspan y="0" fill="#0791ee" font-size="32">B</tspan><tspan y="0" fill="red">C</tspan></text>
+  </g>
+</svg>

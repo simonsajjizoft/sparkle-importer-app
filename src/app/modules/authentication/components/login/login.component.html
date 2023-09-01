@@ -1,0 +1,113 @@
+<div *ngIf="!isCookieEnabled">
+    <div class="content-body" >
+      <div class="card-error">
+          <div class="">
+            <img src="assets/warning.png" alt="" srcset="" width="50px" height="50px">
+            <p class="f-s-17 c-drk zmap-header">Cookies are blocked</p>
+            <div class="cookie-block-error f-w-400 f-s-15 p-l-5">Your browser has cookies disabled. If cookies are disabled in your browser, or you are browsing in Private Mode, please make sure cookies are enabled and try again.</div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div *ngIf="isCookieEnabled">
+    <div *ngIf="loader" style="z-index:1200!important">
+      <mat-spinner style="z-index:1000!important;position: absolute!important;top:45%;left:49%" diameter="50">
+      </mat-spinner>
+    </div>
+    <div *ngIf="showLoginForm">
+      <div class="content-body" *ngIf="loginView">
+        <mat-card>
+          <mat-card-content>
+            <div class="header p-55-0rem">
+              <p class="f-s-17 f-w-600 c-drk zmap-header t-a-left">Log In</p>
+            </div>
+            <form (ngSubmit)="submitClick()" name="loginForm" [formGroup]="loginForm">
+              <p class="c-gr t-a-left p-55-0rem f-s-13">Please Sign In to your Account to access Sparkle Importer</p>
+              <div class="emailInput">
+                <mat-form-field class="full-width" appearance="outline">
+                  <mat-label>User Email</mat-label>
+                  <input matInput #email (keyup)="updateEmailValue(email?.value)" autocomplete="off" formControlName="email" />
+                </mat-form-field>
+              </div>
+  
+              <div class="passInput">
+  
+                <mat-form-field class="pass-field" appearance="outline">
+                  <mat-label>Password</mat-label>
+                  <input formControlName="password" matInput  [type]=" hide ? 'password' : 'text'" required />
+                  <button class="eyeIcon" (click)="toggleViewPassword($event)">
+                    <mat-icon class="f-s-15">
+                      {{hide ? 'visibility_off' : 'visibility'}}
+                    </mat-icon>
+                  </button>
+                </mat-form-field>
+              </div>
+              <div class="d-flex  btn-outer align-center j-end p-l-20">
+                <button mat-stroked-button type="submit" class="login-btn m-r-0 m-l-8 f-s-14 f-w-500  m-b-20">Login</button>
+              </div>
+            </form>
+          </mat-card-content>
+          <div class="m-t-0 m-b-5 p-20 p-t-0 p-b-10 f-s-14 change-pass f-w-500  ">
+            <div class="go-back c-pointer p-55-0rem t-a-left" (click)="switchView($event)">Change Password</div>
+  
+        </div>
+        </mat-card>
+      </div>
+      <div class="content-body" *ngIf="!loginView">
+        <mat-card>
+          <mat-card-content>
+            <div class="header p-55-0rem">
+              <p class="f-s-18 f-w-600 c-drk zmap-header t-a-left">Update Password</p>
+            </div>
+            <form (ngSubmit)="passwordChange()" name="passwordChangeForm" [formGroup]="passwordChangeForm">
+              <div class="emailInput">
+                <mat-form-field class="full-width" appearance="outline">
+                  <mat-label>User Email</mat-label>
+                  <input matInput #updatedEmail autocomplete="off" [value]="currentEmail" formControlName="uemail" />
+                </mat-form-field>
+              </div>
+              <div class="passInput">
+                <mat-form-field class="pass-field" appearance="outline">
+                  <mat-label>Old Password</mat-label>
+                  <input  matInput [type]=" hideoldpass ? 'password' : 'text'" formControlName="oldpassword" />
+                  <button class="eyeIcon" (click)="hideoldpass = !hideoldpass">
+                    <mat-icon class="f-s-15">
+                      {{hideoldpass ? 'visibility_off' : 'visibility'}}
+                    </mat-icon>
+                  </button>
+                </mat-form-field>
+              </div>
+              <div class="passInput">
+                <mat-form-field class="pass-field" appearance="outline">
+                  <mat-label>New Password</mat-label>
+                  <input  matInput [type]=" hidenewpass ? 'password' : 'text'" formControlName="newpassword"/>
+                  <button class="eyeIcon" (click)="hidenewpass = !hidenewpass">
+                    <mat-icon class="f-s-15">
+                      {{hidenewpass ? 'visibility_off' : 'visibility'}}
+                    </mat-icon>
+                  </button>                
+                </mat-form-field>
+              </div>
+              <div class="passInput">
+                <mat-form-field class="pass-field" appearance="outline">
+                  <mat-label>Confirm Password</mat-label>
+                  <input  matInput [type]=" hideconfirmpass ? 'password' : 'text'" formControlName="confirmpassword"/>
+                  <button class="eyeIcon" (click)="hideconfirmpass = !hideconfirmpass">
+                    <mat-icon class="f-s-15">
+                      {{hideconfirmpass ? 'visibility_off' : 'visibility'}}
+                    </mat-icon>
+                  </button>                
+                </mat-form-field>
+              </div>
+              <div class="d-flex  btn-outer align-center j-end ">
+                <button mat-stroked-button type="submit" class="reset-btn  f-s-14 f-w-500 w-100 f-s-14 f-w-500 m-r-0 m-t-10">Update my password</button>             
+              </div>       
+            </form>      
+          </mat-card-content>
+          <div class="m-t-30 m-b-5 p-20 p-t-0 p-b-10 f-s-14 change-pass f-w-500  ">
+            <div class="go-back c-pointer p-55-0rem t-a-left" (click)="switchView()">Back to Login</div>
+        </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>

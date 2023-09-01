@@ -1,0 +1,488 @@
+.list-task {
+    height: 22px;
+    border-radius: 4px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.list-task1 {
+    height: 22px;
+    border-radius: 4px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: white;
+    pointer-events: none;
+
+}
+
+.list-task2 {
+    height: 22px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: rgb(208, 205, 205);
+    opacity: .5;
+}
+
+.list-task2:hover {
+    height: 22px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: rgb(208, 205, 205);
+    opacity: .5;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;
+}
+
+div title {
+    background-color: red;
+    color: white;
+}
+
+.filter-dropdown {
+    position: absolute;
+    top: 107px;
+    right: 15px;
+    background-color: rgb(249, 249, 249) !important;
+    width: 9%;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px; */
+    border: 1px solid #685b5b4f;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    z-index: 100;
+    max-height: 145px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+}
+
+.filter-dropdown>div {
+    height: 25px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+.filter-dropdown>div:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+a {
+    color: unset !important;
+}
+
+.c-grey {
+    color: #95a9bd;
+}
+
+.c-white-grey {
+    color: #93a0ad;
+}
+
+.click-link:hover {
+    font-weight: 600;
+}
+
+.white-bg {
+    padding: 10px;
+    border: 2px solid #685b5b4f;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.print-values {
+    white-space: nowrap;
+}
+
+.bulk-upload-btn {
+    border: 1px solid #517494 !important;
+    border-radius: 15px;
+    background-color: transparent !important;
+    font-family: 'Poppins', sans-serif;
+    color: #517494;
+    font-weight: 500;
+    padding: 4px;
+    position: absolute;
+    outline: none;
+    padding: 2px 10px;
+}
+
+.bulk-upload-btn:hover {
+    background-color: #517494 !important;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/* .list-task:hover:before{
+   position: absolute;
+   content: attr(data-tooltip);
+   top:6.5rem;
+  border-radius: 7%;
+  border: 1px solid black;
+   height: 80px;
+   width: 100px;
+   background-color: whitesmoke;
+   
+} */
+
+#tooltipText {
+    position: relative;
+    left: 10%;
+    top: 0;
+    transform: translateX(-10%);
+    background-color: yellow;
+    color: blue;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+#tooltipText::before {
+    content: '';
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: translateX(-10%);
+}
+
+#tooltip:hover #tooltipText {
+    z-index: 1;
+    padding: 3px;
+    top: 14%;
+    left: -25%;
+    visibility: visible;
+    opacity: 1;
+    border-radius: 7%;
+    height: max-content;
+    width: 122px;
+    background: #fff;
+    border: 2px solid #685b5b4f;
+    color: black;
+}
+
+.tlt {
+    max-width: 75px !important;
+    min-width: 50px;
+}
+
+.loader-parent {
+    position: fixed;
+    left: 40%;
+    top: 40%;
+    z-index: 9;
+}
+
+.loader-parent img {
+    width: 100px;
+}
+
+.content-area {
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+.header-area {
+    min-height: 65px;
+    max-height: 65px;
+}
+
+.details-top-row {
+    background-color: #f3f3f3;
+}
+
+.dashboard-parent {
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+}
+
+.update-text {
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+
+.main-page {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+}
+
+.item-box {
+    height: fit-content;
+    background: #fff;
+    border: 2px solid #685b5b4f;
+    border-radius: 7px;
+}
+
+.bg-main {
+    /* background-color: whitesmoke; */
+    /* background-color: rgb(248, 248, 248); */
+    background-color: var(--bgmain);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.scan-new-input {
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid #86a6c9;
+    border-right: 0px;
+    height: 27px;
+    width: 250px;
+    position: relative;
+}
+
+.scan-btn {
+    display: flex;
+    border-radius: 0px 5px 5px 0px;
+    background: #517494;
+    height: 27px;
+    align-items: center;
+    width: 35px;
+    justify-content: center;
+}
+
+.scan-btn i {
+    color: #ffffffd1;
+}
+
+.navbar-items {
+    width: fit-content;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-items i {
+    position: absolute;
+    right: 42px;
+    top: 45%;
+    cursor: pointer;
+    color: #aa4242;
+}
+
+.list-task {
+    height: 22px;
+    border-radius: 4px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: white;
+    cursor: pointer;
+}
+
+.list-task1 {
+    height: 22px;
+    border-radius: 4px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: white;
+    pointer-events: none;
+
+}
+
+.list-task2 {
+    height: 22px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: white;
+    opacity: .5;
+}
+
+.list-task2:hover {
+    height: 22px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(183, 182, 182, 0.538);
+    background-color: rgb(208, 205, 205);
+    opacity: .5;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;
+}
+
+div title {
+    background-color: red;
+    color: white;
+}
+
+.filter-dropdown {
+    position: absolute;
+    top: 105px;
+    right: 15px;
+    background-color: white;
+    width: 9%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;
+    z-index: 100;
+    max-height: 140px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 5px;
+
+}
+
+.filter-dropdown>div {
+    height: 25px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+.filter-dropdown>div:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 3px 0px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-name {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    width: 100px;
+}
+
+
+h2.product-title {
+    font-family: 'Poppins' !important;
+    color: #1D364B;
+    font-weight: 800 !important;
+    font-size: 28px;
+}
+
+.card {
+    padding: 20px;
+    font-family: 'Poppins' !important;
+    border: 2px solid #685b5b4f;
+    border-radius: 7px;
+}
+
+.p-name {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    width: 150px;
+}
+
+/* Tab switch between Content and Incidents STARTS */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.active-content-tab {
+    border: 0;
+    border-bottom: 3px solid #517494 !important;
+    font-weight: 600 !important;
+    color: black !important;
+
+}
+
+/* Tab switch between Content and Incidents ENDS */
+
+.c-blue-line {
+    color: #30688d;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.disabled-tab {
+    color: gray;
+    pointer-events: none !important;
+}
+
+.min-ht {
+    min-height: calc(100vh - 186px)
+}
+
+.c-primary {
+    color: var(--darkgreen)
+}
+
+.user-profile-ctn {
+    border-radius: 50%;
+    background-color: var(--logocolor);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+}
+
+.c-grey {
+    color: rgb(88, 88, 88);
+}
+
+.c-light-gr {
+    color: #93a0ad;
+}
+
+.box {
+    /* border: 1px solid rgb(117 167 190) !important; */
+    border-radius: 5px;
+    background-color: white;
+}
+
+.border-main {
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 2px;
+}
+
+
+.expanded {
+    visibility: visible !important;
+    transition: all 0.3s linear;
+}
+
+.collapsed {
+    visibility: hidden !important;
+    transition: all 0.3s linear;
+}
+
+/* Progress bar styles (STARTS) */
+.upload-parent{
+    height: 15px;
+    width: 20vw;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid #e1d7d7;
+    background-color: #f5f5f5;
+  }
+  
+  .upload-parent .add-icon{
+    font-size: 20px;
+  }
+    
+  .progress-area{
+    height: 5px;
+    background-color: #4bb94b;
+    transition: all 0.5s ease-out;
+  }
+  
+  .progress-area-parent{
+    /* top: 45%; */
+    display: flex;
+    align-items: center;
+    /* left: 10px; */
+    /* right: 15px; */
+  }
+  
+  .w-75{
+    width: 75%;
+  }
+      
+  .a-end{
+    align-items: flex-end;
+  }
+/* Progress bar styles (ENDS) */
+
+.superscript-status{
+    position: absolute;
+    top:5px;
+    right:5px;
+    
+}

@@ -1,0 +1,118 @@
+<div class="container-fluid dashboard-parent p-l-0 m-l-0 m-r-0 p-r-0  w-100">
+    <div class="row p-l-0 p-r-0 m-l-0 m-r-0 w-100">
+        <div class="content-area header-area m-l-0 m-r-0 p-l-0 p-r-0 w-100">
+            <div class="header p-l-0 p-r-0 m-l-0 m-r-0 w-100">
+                <app-header></app-header>
+            </div>
+        </div>
+    </div>
+    <div class="row p-l-0 p-r-0 m-l-0 m-r-0  main-page bg-main">
+        <!-- <app-skeleton-loader class="m-l-20" *ngIf="initialLoader" [loaderDatas]="[1,2,3,4,5,6,7,8]" [higherWidth]="500"
+            [lowerWidth]="400" [gridColumn]="2"></app-skeleton-loader> -->
+        <ng-container>
+            <div class="details-top-row w-100 row m-t-15 m-r-0 m-l-0 p-b-15 p-t-15 bg-white align-center ">
+                <div class="row col-md-12 p-l-20  p-r-0">
+                    <div class="col-md-6 d-flex align-center m-t-0 p-t-5 p-b-5 p-l-15">
+                        <img src="assets/icons/file-operation.svg" width="19px" height="18px"
+                            class="m-r-5  p-t-0 p-b-0" />
+                        <span class=" f-w-600 m-text m-r-5   p-r-5 p-t-0 p-b-0 c-primary">Import Operation
+                            -<span class="f-poppins-bold">024</span></span>
+                    </div>
+                    <div class="col-md-6 d-flex align-center j-end m-t-0 p-r-2 p-t-5 p-b-5">
+                        <!-- <div class="f-w-500 ">Mark Jameson</div> -->
+                        <!-- <div class="user-profile-ctn xs-text m-l-5">MJ</div> -->
+                    </div>
+                </div>
+                <div class="row col-md-12 p-l-20  p-r-0">
+                    <div class="col-md-6 d-flex align-center m-t-0 p-t-5 p-b-5 p-l-15">
+                        <span class="f-w-500 m-r-5  p-r-5 p-l-0 p-t-0 p-b-0 xxxl-text ">Card Readings Import <span >August 2023</span><span class="m-l-10 c-primary xxxl-text">|</span></span>
+                        <span class="d-flex align-center f-w-400 xxl-text  m-l-5 c-grey"><i class="fa fa-calendar  m-r-5"></i> <span
+                                class="xxxl-text f-w-500  c-gr">25th Aug 2023</span></span>
+                    </div>
+                    <div class="col-md-6 d-flex align-center m-t-0 p-t-5 p-r-5 p-b-5 j-end">
+                        <!-- <img src="/assets/icons/loading.png" width="17px" height="17px" class="m-r-5 p-t-0 p-b-0" /> -->
+                        <div class="m-t-2">
+                            <circle-progress
+                            [percent]="72"
+                            [radius]="8"
+                            [outerStrokeWidth]="2"
+                            [innerStrokeWidth]="0"
+                            [outerStrokeColor]="'#0073ae'"
+                            [innerStrokeColor]="'#0073ae'"
+                            [animation]="true"
+                            [animationDuration]="400"
+                            [unitsFontSize]="10"
+                            [titleFontSize]="9"
+                            [showTitle]="false"
+                            [showUnits]="false"
+                            [showSubtitle]="false"
+                            [titleFontWeight]="500"
+                            [backgroundPadding]="0"
+                            ></circle-progress>
+                        </div>
+                        <span class="f-w-500 xl-text  m-l-5 p-t-2 p-b-0 p-relative">In Progress</span>
+                        <sup class="superscript-status">Status</sup>
+                    </div>
+                </div>
+            </div>
+            <!-- <div *ngIf="loader" class="loader-parent">
+                <img src="assets/gif/loader.gif">
+            </div> -->
+            <div class="row container-fluid m-r-2 m-l-0 m-t-10 w-100 min-ht p-relative">
+                <div class="col-md-9 p-l-0 p-r-0 m-t-5">
+                    <div class="m-b-15">
+                        <mat-accordion>
+                            <mat-expansion-panel class="mat-elevation-z0 p-0" (opened)="isFilesDropped = true" (closed)="isFilesDropped = false" [expanded]="isFilesDropped">
+                                <mat-expansion-panel-header class="right-aligned-header">
+                                    <mat-panel-title>
+                                        <span class="f-w-500 xxl-text d-flex align-center">
+                                            <img src="assets/icons/files.svg" width="19px" height="17px" alt=""> <span class="f-w-600 m-l-4 f-default m-r-4 ">Files</span> <span class="f-w-500  c-light-gr m-l-2 l-text">(210)</span>
+                                        </span>
+                                    </mat-panel-title>
+                                    <mat-panel-description>
+                                        <div class="m-text d-flex gap-10 align-center">
+                                            <div><img src="assets/gif/api-spinner.svg" width="22px" height="22px" alt=""></div>
+                                            <div class="m-text  f-w-500 c-primary">150 / 200</div>
+                                        </div>
+                                    </mat-panel-description>
+                                </mat-expansion-panel-header>
+                                <div class=" d-flex j-center p-30 p-t-20 m-b-0">
+                                    <app-upload-area></app-upload-area>
+                                </div>
+                                <div class="progress-ctn d-flex align-center j-center w-100">
+                                    <div class="upload-parent  d-flex align-center  p-relative c-pointer">
+                                        <div class="w-100 p-absolute progress-area-parent">
+                                            <div class="w-100 m-r-2 p-l-4 p-r-2">
+                                                <div class="progress-area" [ngStyle]="{'width': uploadProgress + '%'}"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="m-l-10 f-w-500 m-text c-primary">{{uploadProgress}}%</div>
+                                </div>
+                                <hr class="hor-line">
+                                <app-files-import-table></app-files-import-table>
+                            </mat-expansion-panel>
+                        </mat-accordion>
+                    </div>
+                    <div class="m-b-10">
+                        <mat-accordion>
+                            <mat-expansion-panel class="mat-elevation-z0 p-0" (opened)="isLocationsTableDropped = true" (closed)="isLocationsTableDropped = false" [expanded]="isLocationsTableDropped">
+                                <mat-expansion-panel-header class="right-aligned-header">
+                                    <mat-panel-title>
+                                        <span class="f-w-500 xxl-text d-flex align-center">
+                                            <img src="assets/icons/multiplelocations.svg" class="m-b-5" width="19px" height="17px" alt=""> <span class="f-w-600 f-default m-l-4 m-r-4 ">Locations</span> <span class="f-w-500 f-poppins-medium c-light-gr m-l-2 l-text">(20)</span>
+                                        </span>
+                                    </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <app-locations-table></app-locations-table>
+                            </mat-expansion-panel>
+                        </mat-accordion>
+                    </div>
+                </div>
+                <div class="col-md-3 p-r-0">
+                    <app-task-details></app-task-details>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="63" viewBox="0 0 64 63">
+  <g id="Group_2285" data-name="Group 2285" transform="translate(-1200 -232)">
+    <g id="Rectangle_695" data-name="Rectangle 695" transform="translate(1200 232)" fill="none" stroke="#517494" stroke-width="1">
+      <rect width="64" height="63" rx="14" stroke="none"/>
+      <rect x="0.5" y="0.5" width="63" height="62" rx="13.5" fill="none"/>
+    </g>
+    <text id="CSB" transform="translate(1210 277)" fill="#14b554" font-size="25" font-family="SquishyWhaleDemoRegular, Squishy Whale Demo" opacity="0.77"><tspan x="0" y="0">CSB</tspan></text>
+  </g>
+</svg>

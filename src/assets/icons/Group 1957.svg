@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="353" height="110" viewBox="0 0 353 110">
+  <g id="Group_1957" data-name="Group 1957" transform="translate(-533 -352)">
+    <g id="Rectangle_507" data-name="Rectangle 507" transform="translate(533 352)" fill="#f8fafc" stroke="#aaa" stroke-width="1">
+      <rect width="353" height="110" rx="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="352" height="109" rx="5.5" fill="none"/>
+    </g>
+    <g id="Group_1953" data-name="Group 1953" transform="translate(571 -36)">
+      <text id="Poco_H7845_Side_View-1" data-name="Poco H7845 Side View-1" transform="translate(42 419)" fill="#1d364b" font-size="18" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Poco H7845 Side View-1</tspan></text>
+      <text id="_12-10-2021_10:00_AM_By_Ansu" data-name="12-10-2021  10:00 AM By Ansu" transform="translate(41 436)" fill="#707070" font-size="13" font-family="ArialMT, Arial"><tspan x="0" y="0" xml:space="preserve">12-10-2021  10:00 AM By Ansu</tspan></text>
+    </g>
+    <g id="Group_1955" data-name="Group 1955" transform="translate(538.251 -36)">
+      <g id="Group_1927" data-name="Group 1927" transform="translate(93.029 461.987)">
+        <path id="Icon_open-data-transfer-download" data-name="Icon open-data-transfer-download" d="M5.62,0V5.62H1.873l5.62,5.62,5.62-5.62H9.366V0ZM0,13.113v1.873H14.986V13.113Z" fill="#517494"/>
+      </g>
+      <text id="Download_Image" data-name="Download Image" transform="translate(114.47 476)" fill="#1d364b" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Download Image</tspan></text>
+    </g>
+    <g id="Icon_feather-image" data-name="Icon feather-image" transform="translate(584.361 362.361)">
+      <path id="Path_342" data-name="Path 342" d="M6.515,4.5H20.623a2.015,2.015,0,0,1,2.015,2.015V20.623a2.015,2.015,0,0,1-2.015,2.015H6.515A2.015,2.015,0,0,1,4.5,20.623V6.515A2.015,2.015,0,0,1,6.515,4.5Z" transform="translate(0 0)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_343" data-name="Path 343" d="M13.523,12.012A1.512,1.512,0,1,1,12.012,10.5,1.512,1.512,0,0,1,13.523,12.012Z" transform="translate(-1.969 -1.969)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_344" data-name="Path 344" d="M23.623,20.039,18.585,15,7.5,26.085" transform="translate(-0.985 -3.446)" fill="none" stroke="#517494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Rectangle_510" data-name="Rectangle 510" transform="translate(611 421)" fill="none" stroke="#517494" stroke-width="1">
+      <rect width="183" height="29" rx="14.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="182" height="28" rx="14" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="88.354" viewBox="0 0 99 88.354">
+  <g id="Group_182" data-name="Group 182" transform="translate(-862.5 -286.033)">
+    <g id="Icon_feather-upload" data-name="Icon feather-upload" transform="translate(864 309.467)">
+      <path id="Path_38" data-name="Path 38" d="M67.921,22.5V36.594a7.047,7.047,0,0,1-7.047,7.047H11.547A7.047,7.047,0,0,1,4.5,36.594V22.5" transform="translate(-4.5 19.781)" fill="none" stroke="#0277ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_39" data-name="Path 39" d="M45.734,22.117,28.117,4.5,10.5,22.117" transform="translate(3.594 -4.5)" fill="none" stroke="#0277ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_40" data-name="Path 40" d="M18,4.5V46.781" transform="translate(13.71 -4.5)" fill="none" stroke="#0277ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Icon_feather-plus" data-name="Icon feather-plus" transform="translate(916.133 287.533)">
+      <path id="Path_41" data-name="Path 41" d="M18,7.5V51.366" transform="translate(3.933 -7.5)" fill="none" stroke="#0277ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_42" data-name="Path 42" d="M7.5,18H51.366" transform="translate(-7.5 3.933)" fill="none" stroke="#0277ab" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
